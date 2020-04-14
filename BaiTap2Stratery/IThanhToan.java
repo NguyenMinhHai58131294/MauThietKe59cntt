@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BaiTap2;
-
-import BaiTap1.NhanVien;
+package BaiTap2Stratery;
 
 /**
  *
  * @author admin
  */
-public interface IQuanLi {
-    public void them(NhanVien nv);
-    public void inDS();
-    
+public interface IThanhToan {
+    public double thanhToan(int tienHang);  
 }
